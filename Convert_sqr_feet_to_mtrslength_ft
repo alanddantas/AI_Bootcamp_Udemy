@@ -1,0 +1,16 @@
+length_ft = 1000
+width_ft = 1000
+
+
+def calc_square_meters_from_feet(length_ft,width_ft):
+    
+    length_mt = length_ft * 0.3048
+    width_mt = width_ft * 0.3048
+    metric_area = (length_mt * width_mt)
+    
+    
+    
+    
+
+    # Leave the line below as it is
+    return metric_area
